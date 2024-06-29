@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		80AD31802C2CDF92006B7A19 /* DiscordoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AD317F2C2CDF92006B7A19 /* DiscordoApp.swift */; };
-		80AD31822C2CDF92006B7A19 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AD31812C2CDF92006B7A19 /* ContentView.swift */; };
-		80AD31842C2CDF93006B7A19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80AD31832C2CDF93006B7A19 /* Assets.xcassets */; };
-		80AD31882C2CDF93006B7A19 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80AD31872C2CDF93006B7A19 /* Preview Assets.xcassets */; };
+		80EF3B922C3053EE0050CE47 /* ListAiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EF3B912C3053EE0050CE47 /* ListAiApp.swift */; };
+		80EF3B942C3053EE0050CE47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EF3B932C3053EE0050CE47 /* ContentView.swift */; };
+		80EF3B962C3053EF0050CE47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80EF3B952C3053EF0050CE47 /* Assets.xcassets */; };
+		80EF3B9A2C3053EF0050CE47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80EF3B992C3053EF0050CE47 /* Preview Assets.xcassets */; };
+		80EF3BA32C3054B00050CE47 /* MyListsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EF3BA22C3054B00050CE47 /* MyListsScreen.swift */; };
+		80EF3BA52C305A5D0050CE47 /* AddListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EF3BA42C305A5D0050CE47 /* AddListScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		80AD317C2C2CDF92006B7A19 /* Discordo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Discordo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		80AD317F2C2CDF92006B7A19 /* DiscordoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscordoApp.swift; sourceTree = "<group>"; };
-		80AD31812C2CDF92006B7A19 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		80AD31832C2CDF93006B7A19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		80AD31852C2CDF93006B7A19 /* Discordo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Discordo.entitlements; sourceTree = "<group>"; };
-		80AD31872C2CDF93006B7A19 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		80EF3B8E2C3053EE0050CE47 /* ListAi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListAi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80EF3B912C3053EE0050CE47 /* ListAiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAiApp.swift; sourceTree = "<group>"; };
+		80EF3B932C3053EE0050CE47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		80EF3B952C3053EF0050CE47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80EF3B972C3053EF0050CE47 /* ListAi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ListAi.entitlements; sourceTree = "<group>"; };
+		80EF3B992C3053EF0050CE47 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		80EF3BA22C3054B00050CE47 /* MyListsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListsScreen.swift; sourceTree = "<group>"; };
+		80EF3BA42C305A5D0050CE47 /* AddListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddListScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		80AD31792C2CDF92006B7A19 /* Frameworks */ = {
+		80EF3B8B2C3053EE0050CE47 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,78 +37,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		80AD31732C2CDF92006B7A19 = {
+		80EF3B852C3053EE0050CE47 = {
 			isa = PBXGroup;
 			children = (
-				80AD317E2C2CDF92006B7A19 /* Discordo */,
-				80AD317D2C2CDF92006B7A19 /* Products */,
+				80EF3B902C3053EE0050CE47 /* ListAi */,
+				80EF3B8F2C3053EE0050CE47 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		80AD317D2C2CDF92006B7A19 /* Products */ = {
+		80EF3B8F2C3053EE0050CE47 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				80AD317C2C2CDF92006B7A19 /* Discordo.app */,
+				80EF3B8E2C3053EE0050CE47 /* ListAi.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		80AD317E2C2CDF92006B7A19 /* Discordo */ = {
+		80EF3B902C3053EE0050CE47 /* ListAi */ = {
 			isa = PBXGroup;
 			children = (
-				80AD317F2C2CDF92006B7A19 /* DiscordoApp.swift */,
-				80AD31812C2CDF92006B7A19 /* ContentView.swift */,
-				80AD31832C2CDF93006B7A19 /* Assets.xcassets */,
-				80AD31852C2CDF93006B7A19 /* Discordo.entitlements */,
-				80AD31862C2CDF93006B7A19 /* Preview Content */,
+				80EF3BA72C305B880050CE47 /* Views */,
+				80EF3BA12C30548D0050CE47 /* Screens */,
+				80EF3B912C3053EE0050CE47 /* ListAiApp.swift */,
+				80EF3B932C3053EE0050CE47 /* ContentView.swift */,
+				80EF3B952C3053EF0050CE47 /* Assets.xcassets */,
+				80EF3B972C3053EF0050CE47 /* ListAi.entitlements */,
+				80EF3B982C3053EF0050CE47 /* Preview Content */,
 			);
-			path = Discordo;
+			path = ListAi;
 			sourceTree = "<group>";
 		};
-		80AD31862C2CDF93006B7A19 /* Preview Content */ = {
+		80EF3B982C3053EF0050CE47 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				80AD31872C2CDF93006B7A19 /* Preview Assets.xcassets */,
+				80EF3B992C3053EF0050CE47 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		80EF3BA12C30548D0050CE47 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				80EF3BA22C3054B00050CE47 /* MyListsScreen.swift */,
+				80EF3BA42C305A5D0050CE47 /* AddListScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		80EF3BA72C305B880050CE47 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		80AD317B2C2CDF92006B7A19 /* Discordo */ = {
+		80EF3B8D2C3053EE0050CE47 /* ListAi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80AD318B2C2CDF93006B7A19 /* Build configuration list for PBXNativeTarget "Discordo" */;
+			buildConfigurationList = 80EF3B9D2C3053EF0050CE47 /* Build configuration list for PBXNativeTarget "ListAi" */;
 			buildPhases = (
-				80AD31782C2CDF92006B7A19 /* Sources */,
-				80AD31792C2CDF92006B7A19 /* Frameworks */,
-				80AD317A2C2CDF92006B7A19 /* Resources */,
+				80EF3B8A2C3053EE0050CE47 /* Sources */,
+				80EF3B8B2C3053EE0050CE47 /* Frameworks */,
+				80EF3B8C2C3053EE0050CE47 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Discordo;
-			productName = Discordo;
-			productReference = 80AD317C2C2CDF92006B7A19 /* Discordo.app */;
+			name = ListAi;
+			productName = ListAi;
+			productReference = 80EF3B8E2C3053EE0050CE47 /* ListAi.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		80AD31742C2CDF92006B7A19 /* Project object */ = {
+		80EF3B862C3053EE0050CE47 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					80AD317B2C2CDF92006B7A19 = {
+					80EF3B8D2C3053EE0050CE47 = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
-			buildConfigurationList = 80AD31772C2CDF92006B7A19 /* Build configuration list for PBXProject "Discordo" */;
+			buildConfigurationList = 80EF3B892C3053EE0050CE47 /* Build configuration list for PBXProject "ListAi" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,42 +134,44 @@
 				en,
 				Base,
 			);
-			mainGroup = 80AD31732C2CDF92006B7A19;
-			productRefGroup = 80AD317D2C2CDF92006B7A19 /* Products */;
+			mainGroup = 80EF3B852C3053EE0050CE47;
+			productRefGroup = 80EF3B8F2C3053EE0050CE47 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				80AD317B2C2CDF92006B7A19 /* Discordo */,
+				80EF3B8D2C3053EE0050CE47 /* ListAi */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		80AD317A2C2CDF92006B7A19 /* Resources */ = {
+		80EF3B8C2C3053EE0050CE47 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80AD31882C2CDF93006B7A19 /* Preview Assets.xcassets in Resources */,
-				80AD31842C2CDF93006B7A19 /* Assets.xcassets in Resources */,
+				80EF3B9A2C3053EF0050CE47 /* Preview Assets.xcassets in Resources */,
+				80EF3B962C3053EF0050CE47 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		80AD31782C2CDF92006B7A19 /* Sources */ = {
+		80EF3B8A2C3053EE0050CE47 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80AD31822C2CDF92006B7A19 /* ContentView.swift in Sources */,
-				80AD31802C2CDF92006B7A19 /* DiscordoApp.swift in Sources */,
+				80EF3BA32C3054B00050CE47 /* MyListsScreen.swift in Sources */,
+				80EF3B942C3053EE0050CE47 /* ContentView.swift in Sources */,
+				80EF3B922C3053EE0050CE47 /* ListAiApp.swift in Sources */,
+				80EF3BA52C305A5D0050CE47 /* AddListScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		80AD31892C2CDF93006B7A19 /* Debug */ = {
+		80EF3B9B2C3053EF0050CE47 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -208,7 +232,7 @@
 			};
 			name = Debug;
 		};
-		80AD318A2C2CDF93006B7A19 /* Release */ = {
+		80EF3B9C2C3053EF0050CE47 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -261,15 +285,15 @@
 			};
 			name = Release;
 		};
-		80AD318C2C2CDF93006B7A19 /* Debug */ = {
+		80EF3B9E2C3053EF0050CE47 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Discordo/Discordo.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ListAi/ListAi.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Discordo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ListAi/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -287,7 +311,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ferreirapps.Discordo;
+				PRODUCT_BUNDLE_IDENTIFIER = ferreirapps.ListAi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -297,15 +321,15 @@
 			};
 			name = Debug;
 		};
-		80AD318D2C2CDF93006B7A19 /* Release */ = {
+		80EF3B9F2C3053EF0050CE47 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Discordo/Discordo.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ListAi/ListAi.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Discordo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ListAi/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -323,7 +347,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ferreirapps.Discordo;
+				PRODUCT_BUNDLE_IDENTIFIER = ferreirapps.ListAi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -336,25 +360,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		80AD31772C2CDF92006B7A19 /* Build configuration list for PBXProject "Discordo" */ = {
+		80EF3B892C3053EE0050CE47 /* Build configuration list for PBXProject "ListAi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80AD31892C2CDF93006B7A19 /* Debug */,
-				80AD318A2C2CDF93006B7A19 /* Release */,
+				80EF3B9B2C3053EF0050CE47 /* Debug */,
+				80EF3B9C2C3053EF0050CE47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80AD318B2C2CDF93006B7A19 /* Build configuration list for PBXNativeTarget "Discordo" */ = {
+		80EF3B9D2C3053EF0050CE47 /* Build configuration list for PBXNativeTarget "ListAi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80AD318C2C2CDF93006B7A19 /* Debug */,
-				80AD318D2C2CDF93006B7A19 /* Release */,
+				80EF3B9E2C3053EF0050CE47 /* Debug */,
+				80EF3B9F2C3053EF0050CE47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 80AD31742C2CDF92006B7A19 /* Project object */;
+	rootObject = 80EF3B862C3053EE0050CE47 /* Project object */;
 }

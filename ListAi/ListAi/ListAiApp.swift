@@ -1,14 +1,14 @@
 //
-//  DiscordoApp.swift
-//  Discordo
+//  ListAiApp.swift
+//  ListAi
 //
-//  Created by Paulo Ferreira on 27/06/2024.
+//  Created by Paulo Ferreira on 29/06/2024.
 //
 
 import SwiftUI
 
 @main
-struct DiscordoApp: App {
+struct ListAiApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

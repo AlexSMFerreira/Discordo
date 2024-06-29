@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  Discordo
+//  ListAi
 //
-//  Created by Paulo Ferreira on 27/06/2024.
+//  Created by Paulo Ferreira on 29/06/2024.
 //
 
 import SwiftUI
