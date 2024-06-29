@@ -10,6 +10,7 @@ import SwiftUI
 struct AddListScreen: View {
     
     @Environment(\.dismiss) private var dismiss
+    @Environment(\.modelContext) private var context
     
     @State private var listName: String = ""
     @State private var color: Color = .blue
@@ -35,15 +36,20 @@ struct AddListScreen: View {
             }
             ToolbarItem(placement: .topBarTrailing) {
                 Button("Done") {
-                    
+                    guard let hex = color.toHex() else { 
+                        print("error converting to hex")
+                        return }
+                    let myList = MyList(name: listName, iconColorCode: hex)
+                    context.insert(myList)
+                    dismiss()
                 }
             }
         }
     }
 }
 
-#Preview {
+#Preview { @MainActor in
     NavigationStack {
         AddListScreen()
-    }
+    }.modelContainer(previewContainer)
 }
